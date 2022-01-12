@@ -1,0 +1,37 @@
+name: dl_lab10
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter:
+  uses-material-design: true
+  assets:
+     - assest/images/avatar.jpg
+
+  fonts:
+    - family: DancingScript
+      fonts:
+#        - asset: fonts/DancingScript-Bold.ttf
+#        - asset: fonts/DancingScript-Medium.ttf
+        - asset: fonts/DancingScript-Regular.ttf
+#        - asset: fonts/DancingScript-SemiBold.ttf
+#        - asset: fonts/DancingScript-SemiBold.ttf
+          weight: 400
+
+
+      #    - family: Schyler
+#      fonts:
+#        - asset: fonts/Schyler-Regular. ttf
+#        - asset: fonts/Schyler-Italic. ttf
+#          style: italic
